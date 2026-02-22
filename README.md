@@ -1,7 +1,5 @@
 # 🏥 NAPE - Núcleo de Atendimento Pedagógico Especializado
 
-![Banner NAPE](https://via.placeholder.com/1200x300/2d5a8c/ffffff?text=NAPE+-+Sistema+de+Gestão+Especializada)
-
 > Sistema completo para gestão de atendimentos pedagógicos especializados, desenvolvido com foco em usabilidade, segurança e eficiência.
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php)](https://php.net)
@@ -16,7 +14,7 @@ O NAPE é uma plataforma desenvolvida para otimizar a gestão de atendimentos pe
 
 ## ✨ Funcionalidades Principais
 
-### 👤 Gestão de Usuários (Pacientes)
+### 👤 Gestão de Usuários
 - Usuários vinculados a profissionais
 - **Dados Completos dos Usuários**:
   - Nome, número do prontuário e situação
