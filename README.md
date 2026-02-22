@@ -2,7 +2,7 @@
 
 > Sistema completo para gestão de atendimentos pedagógicos especializados, desenvolvido com foco em usabilidade, segurança e eficiência.
 
-🔗 [Link do Site](https://napeporanga.site/)
+🔗 [napeporanga.site](https://napeporanga.site/)
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql)](https://mysql.com)
