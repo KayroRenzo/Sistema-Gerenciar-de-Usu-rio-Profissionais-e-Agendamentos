@@ -16,7 +16,7 @@ O NAPE é uma plataforma desenvolvida para otimizar a gestão de atendimentos pe
 
 ## ✨ Funcionalidades Principais
 
-### 👤 Gestão de Usuários 
+### 👤 Gestão de Usuários (Pacientes)
 - Usuários vinculados a profissionais
 - **Dados Completos dos Usuários**:
   - Nome, número do prontuário e situação
@@ -50,6 +50,7 @@ O NAPE é uma plataforma desenvolvida para otimizar a gestão de atendimentos pe
 - **Lista de Espera** - Gerenciamento de usuários aguardando atendimento
 - **Equipe NAPE** - Visualização completa da equipe
 - **Dados Pessoais** - Área individual para cada profissional
+- **Usuários Gerais** - Visão completa de todos os usuários do sistema
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -68,27 +69,44 @@ O NAPE é uma plataforma desenvolvida para otimizar a gestão de atendimentos pe
 
 ## 👨‍💻 Minhas Contribuições no Projeto
 
-Atuei no desenvolvimento tanto do **Back-end** quanto do **Front-end**, entregando as seguintes funcionalidades:
+Atuei de forma estratégica no desenvolvimento, com responsabilidades divididas entre **Back-end** e **Front-end**:
 
-### 🔧 Back-end
-- Desenvolvimento completo da lógica de negócio com **PHP**
-- Modelagem e otimização de consultas **SQL** para garantir performance e segurança
-- Implementação de **PDO** com prepared statements para prevenir SQL Injection
-- Sistema de **hash de senhas** para proteção dos dados dos profissionais
-- Criação de APIs internas para comunicação com o front-end
+### 🔧 Back-end (100% do projeto)
+**Responsável por toda a arquitetura e lógica do servidor:**
 
-### 🎨 Front-end
-- Desenvolvimento das telas:
-  - **Dados Pessoais** - Interface para profissionais visualizarem e gerenciarem seus dados
-  - **Usuarios Gerais** - Visualização completa de todos os usuários do sistema
-  - **Equipe NAPE** - Visualização completa da equipe com design moderno e responsivo
-  - **Lista de Espera** - Gerenciamento intuitivo de pacientes aguardando atendimento
-- Implementação de **requisições AJAX** para tornar o site mais dinâmico e responsivo
-- Criação de interfaces fluidas que proporcionam melhor experiência ao usuário
-- Integração perfeita entre front-end e back-end via chamadas assíncronas
+- ✅ Desenvolvimento **completo** da lógica de negócio com **PHP**
+- ✅ Modelagem e otimização de todas as consultas **SQL** para garantir performance e segurança
+- ✅ Implementação de **PDO** com prepared statements para prevenir SQL Injection em todo o sistema
+- ✅ Sistema de **hash de senhas** para proteção dos dados dos profissionais
+- ✅ Criação de APIs internas para comunicação eficiente com o front-end
+- ✅ Estruturação da camada de segurança e autenticação por níveis de acesso (coordenador, profissional, atendente)
+- ✅ Desenvolvimento de toda a lógica de CRUD para usuários, profissionais e agendamentos
+
+### 🎨 Front-end (50% do projeto)
+**Responsável pelo desenvolvimento de interfaces estratégicas:**
+
+- ✅ Desenvolvimento das telas:
+  - **📋 Dados Pessoais** - Interface para profissionais visualizarem e gerenciarem seus dados
+  - **👥 Usuários Gerais** - Visualização completa de todos os usuários do sistema com design intuitivo
+  - **👪 Equipe NAPE** - Visualização completa da equipe com design moderno e responsivo
+  - **⏳ Lista de Espera** - Gerenciamento intuitivo de pacientes aguardando atendimento
+- ✅ Implementação de **requisições AJAX** para tornar o site mais dinâmico e responsivo
+- ✅ Criação de interfaces fluidas que proporcionam melhor experiência ao usuário
+- ✅ Integração perfeita entre front-end e back-end via chamadas assíncronas
+- ✅ Desenvolvimento de componentes reutilizáveis e design consistente
+
+### 🚀 Impacto das Minhas Contribuições
+
+| Área | Contribuição | Impacto |
+|------|--------------|---------|
+| **Back-end** | 100% do desenvolvimento | Base sólida, segura e escalável para todo o sistema |
+| **Front-end** | 50% das interfaces | Experiência do usuário aprimorada com design moderno |
+| **Segurança** | Implementação completa | Proteção contra SQL Injection e dados criptografados |
+| **Performance** | Consultas otimizadas + AJAX | Site rápido com atualizações em tempo real |
 
 ### ✨ Diferenciais Técnicos Implementados
-- **Site mais robusto** com arquitetura bem definida
-- **Experiência diferenciada** com atualizações em tempo real sem refresh de página
-- **Código seguro** seguindo as melhores práticas de desenvolvimento web
-- **Design responsivo** adaptado para diferentes dispositivos
+- **🏗️ Arquitetura Robusta** - Site com estrutura bem definida e escalável
+- **⚡ Experiência Dinâmica** - Atualizações em tempo real sem refresh de página via AJAX
+- **🔒 Código Seguro** - Implementação seguindo as melhores práticas de desenvolvimento web
+- **📱 Design Responsivo** - Interfaces adaptadas para diferentes dispositivos
+- **🔄 Integração Perfeita** - Comunicação fluida entre front-end e back-end
